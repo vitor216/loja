@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Loja C&A</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <header>
+                    <div class="navbar">
+                            <img src="./imagens/logo.png" alt="logo da loja C&A">
+                                <input type="text" placeholder="Busque por Produto, Categoria ou Marca..." /><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                                        </svg>
+                                        <a href="#" class="bi-alexa"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi" viewBox="0 0 16 16">
+                                            <path d="M7.996 0A7.998 7.998 0 0 0 0 8a8 8 0 0 0 6.93 7.93v-1.613a1.06 1.06 0 0 0-.717-1.008A5.602 5.602 0 0 1 2.4 7.865 5.579 5.579 0 0 1 8.054 2.4a5.599 5.599 0 0 1 5.535 5.81l-.002.046a6.116 6.116 0 0 1-.012.192l-.005.061a4.85 4.85 0 0 1-.033.284l-.01.068c-.685 4.516-6.564 7.054-6.596 7.068A7.998 7.998 0 0 0 15.992 8 7.998 7.998 0 0 0 7.996.001Z"/>
+                                        </svg></a>
+                                        <a href="#" class="bi-person"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi" viewBox="0 0 16 16">
+                                            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+                                        </svg></a>
+                                        <a href="#" class="bi-bag"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi" viewBox="0 0 16 16">
+                                            <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                                        </svg></a>
+                            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <nav class="collapse navbar-collapse" id="menu">
+                                <ul class="nav nav-pills">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#">Inicio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Produtos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Promoções</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Contato</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                    </div>
+                </header>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                        <div id="carousel-principal" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div data-bs-interval="2000" class="carousel-item active">
+                                    <img class="d-block w-100"  src="./imagens/carousel01.png">
+                                </div>
+                                <div data-bs-interval="2000" class="carousel-item">
+                                    <img class="d-block w-100" src="./imagens/carousel02.png">
+                                </div>
+                                <div data-bs-interval="2000" class="carousel-item">
+                                    <img class="d-block w-100" src="./imagens/carousel03.png">
+                                    </div>
+                                    <div data-bs-interval="2000" class="carousel-item">
+                                        <img class="d-block w-100" src="./imagens/carousel04.png">
+                                        </div>
+                                        <div data-bs-interval="2000" class="carousel-item">
+                                            <img class="d-block w-100" src="./imagens/carousel05.png">
+                                            </div>
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carousel-principal" class="active" data-bs-slide-to="0"></button>
+                                        <button type="button" data-bs-target="#carousel-principal" data-bs-slide-to="1"></button>
+                                        <button type="button" data-bs-target="#carousel-principal" data-bs-slide-to="2"></button>
+                                        <button type="button" data-bs-target="#carousel-principal" data-bs-slide-to="3"></button>
+                                        <button type="button" data-bs-target="#carousel-principal" data-bs-slide-to="4"></button>
+                                    </div>
+                                </div>
+                            </div>
+                    <div class="row desc">
+                        <h3 id="titulo-desc">Descontos imperdíveis</h3>
+                        <div><hr id="separablack"></div>
+                        <div class="col-md-3 post" id="desconto">
+                            <a href="#"><img src="./imagens/carouselmenor01.png"/></a>
+                        </div>
+                        <div class="col-md-3 post" id="desconto">
+                            <a href="#"><img src="./imagens/carouselmenor02.png"/></a>
+                        </div>
+                        <div class="col-md-3 post" id="desconto">
+                            <a href="#"><img src="./imagens/carouselmenor03.png"/></a>
+                        </div>
+                        <div class="col-md-3 post" id="desconto">
+                            <a href="#"><img src="./imagens/carouselmenor04.png"/></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="bombando1">
+                    <h2>Ta bombando!</h2>
+                    <div><hr id="separablack"></div>
+                    <div class="col-md-1 post" id="bombando">
+                        <a href="#"><img src="./imagens/bomba01.png"/>
+                        <h5 class="h6">makes</h5></a>
+                    </div>
+                    <div class="col-md-1 post" id="bombando">
+                        <a href="#"><img src="./imagens/bomba02.png"/>
+                        <h5 class="h6" id="h6r">Acessorios</h5></a>
+                    </div>
+                    <div class="col-md-1 post" id="bombando">
+                        <a href="#"><img src="./imagens/bomba03.png"/>
+                        <h5 class="h6">Infantil</h5></a>
+                    </div>
+                    <div class="col-md-1 post" id="bombando">
+                        <a href="#"><img src="./imagens/bomba04.png"/>
+                        <h5 class="h6">Shorts</h5></a>
+                    </div>
+                    <div class="col-md-1 post" id="bombando">
+                        <a href="#"><img src="./imagens/bomba05.png"/>
+                        <h5 class="h6">Cropped</h5></a>
+                    </div>
+                    <div class="col-md-1 post" id="bombando">
+                        <a href="#"><img src="./imagens/bomba06.png"/>
+                        <h5 class="h6">Tênis</h5></a>
+                    </div>
+                    <div class="col-md-1 post" id="bombando">
+                        <a href="#"><img src="./imagens/bomba07.png"/>
+                        <h5 class="h6">Social</h5></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col post2">
+                        <h2>Esta em Alta</h2>
+                        <div><hr id="separablack"></div>
+                            <nav class="nav nav-tabs">
+                                <button data-bs-toggle="tab" data-bs-target="#aba1" class="nav-link active" type="button"><img src="./imagens/carousel3-01.png" alt=""><h6>É tendência</h6></button>
+                                <button data-bs-toggle="tab" data-bs-target="#aba2" class="nav-link" type="button"><img src="./imagens/carousel3-02.png" alt=""><h6>Vem pra Folia</h6></button>
+                                <button data-bs-toggle="tab" data-bs-target="#aba3" class="nav-link" type="button"><img src="./imagens/carousel3-03.png" alt=""><h6>Moda Esportiva</h6></button>
+                                <button data-bs-toggle="tab" data-bs-target="#aba4" class="nav-link" type="button"><img src="./imagens/carousel3-04.png" alt=""><h6>Moda Praia</h6></button>
+                            </nav>
+                                <div class="tab-content">
+                                <div class="tab-pane active" id="aba1">
+                                <div class="produtos">
+                                    <article class="produto">
+                                        <img src="./imagens/tendencia01.png"/>
+                                        <h6>
+                                            top cropped corset de cetim alça fina pink</h6>
+                                        <p>
+                                            Altura: 1,73 Busto: 86cm Cintura: 70cm Quadril: 101cm
+                                        </p>
+                                        <div class="price">
+                                        <strong>R$ 150,00</strong>
+                                        </div>
+                                        <button type="button" id="botao">Adicionar ao Carrinho</button>
+                                </article>
+                                <hr>
+                                <article class="produto">
+                                    <img src="./imagens/tendencia02.png"/>
+                                    <h6>top cropped corset de cetim alça fina off white</h6>
+                                    <p>
+                                        Altura: 1,72m Busto: 85cm Cintura: 62cm Quadril: 89cm
+                                    </p>
+                                    <div class="price">
+                                    <strong>R$ 350,00</strong>
+                                    </div>
+                                    <button type="button" id="botao">Adicionar ao Carrinho</button>
+                            </article>
+                            <hr>
+                            <article class="produto">
+                                <img src="./imagens/tendencia03.png"/>
+                                <h6>top cropped corset de cetim alça fina verde</h6>
+                                <p>
+                                    Altura: 1,72m Busto: 85cm Cintura: 62cm Quadril: 89cm
+                                </p>
+                                <div class="price">
+                                <strong>R$ 300,00</strong>
+                                </div>
+                                <button type="button" id="botao">Adicionar ao Carrinho</button>
+                        </article>
+                        <hr>
+                        </article>
+                        <article class="produto">
+                        <img src="./imagens/tendencia01.png"/>
+                        <h6>top cropped corset de cetim alça fina verde</h6>
+                        <p>
+                            Altura: 1,72m Busto: 85cm Cintura: 62cm Quadril: 89cm
+                        </p>
+                        <div class="price">
+                        <strong>R$ 300,00</strong>
+                        </div>
+                        <button type="button" id="botao">Adicionar ao Carrinho</button>
+                        </article>
+                        <hr>
+                                </div>
+                            </div>
+                            <div class="tab-pane " id="aba2">
+                                <div class="produtos">
+                                    <article class="produto">
+                                        <img src="./imagens/folia01.png"/>
+                                        <h6>
+                                            top cropped corset de cetim alça fina pink</h6>
+                                        <p>
+                                            Altura: 1,73 Busto: 86cm Cintura: 70cm Quadril: 101cm
+                                        </p>
+                                        <div class="price">
+                                        <strong>R$ 150,00</strong>
+                                        </div>
+                                        <button type="button" id="botao">Adicionar ao Carrinho</button>
+                                </article>
+                                <hr>
+                                <article class="produto">
+                                    <img src="./imagens/folia02.png"/>
+                                    <h6>top cropped corset de cetim alça fina off white</h6>
+                                    <p>
+                                        Altura: 1,72m Busto: 85cm Cintura: 62cm Quadril: 89cm
+                                    </p>
+                                    <div class="price">
+                                    <strong>R$ 350,00</strong>
+                                    </div>
+                                    <button type="button" id="botao">Adicionar ao Carrinho</button>
+                            </article>
+                            <hr>
+                            <article class="produto">
+                                <img src="./imagens/folia03.png"/>
+                                <h6>top cropped corset de cetim alça fina verde</h6>
+                                <p>
+                                    Altura: 1,72m Busto: 85cm Cintura: 62cm Quadril: 89cm
+                                </p>
+                                <div class="price">
+                                <strong>R$ 300,00</strong>
+                                </div>
+                                <button type="button" id="botao">Adicionar ao Carrinho</button>
+                        </article>
+                        <hr>
+                        </article>
+                        <article class="produto">
+                        <img src="./imagens/folia04.png"/>
+                        <h6>top cropped corset de cetim alça fina verde</h6>
+                        <p>
+                            Altura: 1,72m Busto: 85cm Cintura: 62cm Quadril: 89cm
+                        </p>
+                        <div class="price">
+                        <strong>R$ 300,00</strong>
+                        </div>
+                        <button type="button" id="botao">Adicionar ao Carrinho</button>
+                        </article>
+                        <hr>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="aba3">
+                                <div class="produtos">
+                                    <article class="produto">
+                                        <img src="./imagens/esportiva01.png"/>
+                                        <h6>
+                                            top cropped corset de cetim alça fina pink</h6>
+                                        <p>
+                                            Altura: 1,73 Busto: 86cm Cintura: 70cm Quadril: 101cm
+                                        </p>
+                                        <div class="price">
+                                        <strong>R$ 150,00</strong>
+                                        </div>
+                                        <button type="button" id="botao">Adicionar ao Carrinho</button>
+                                </article>
+                                <hr>
+                                <article class="produto">
+                                    <img src="./imagens/esportiva02.png"/>
+                                    <h6>top cropped corset de cetim alça fina off white</h6>
+                                    <p>
+                                        Altura: 1,72m Busto: 85cm Cintura: 62cm Quadril: 89cm
+                                    </p>
+                                    <div class="price">
+                                    <strong>R$ 350,00</strong>
+                                    </div>
+                                    <button type="button" id="botao">Adicionar ao Carrinho</button>
+                            </article>
+                            <hr>
+                            <article class="produto">
+                                <img src="./imagens/esportiva03.png"/>
+                                <h6>top cropped corset de cetim alça fina verde</h6>
+                                <p>
+                                    Altura: 1,72m Busto: 85cm Cintura: 62cm Quadril: 89cm
+                                </p>
+                                <div class="price">
+                                <strong>R$ 300,00</strong>
+                                </div>
+                                <button type="button" id="botao">Adicionar ao Carrinho</button>
+                        </article>
+                        <hr>
+                        </article>
+                        <article class="produto">
+                        <img src="./imagens/esportiva04.png"/>
+                        <h6>top cropped corset de cetim alça fina verde</h6>
+                        <p>
+                            Altura: 1,72m Busto: 85cm Cintura: 62cm Quadril: 89cm
+                        </p>
+                        <div class="price">
+                        <strong>R$ 300,00</strong>
+                        </div>
+                        <button type="button" id="botao">Adicionar ao Carrinho</button>
+                        </article>
+                        <hr>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="aba4">
+                                <div class="produtos">
+                                    <article class="produto">
+                                        <img src="./imagens/praia01.png"/>
+                                        <h6>
+                                            top cropped corset de cetim alça fina pink</h6>
+                                        <p>
+                                            Altura: 1,73 Busto: 86cm Cintura: 70cm Quadril: 101cm
+                                        </p>
+                                        <div class="price">
+                                        <strong>R$ 150,00</strong>
+                                        </div>
+                                        <button type="button" id="botao">Adicionar ao Carrinho</button>
+                                </article>
+                                <hr>
+                                <article class="produto">
+                                    <img src="./imagens/praia03.png"/>
+                                    <h6>top cropped corset de cetim alça fina off white</h6>
+                                    <p>
+                                        Altura: 1,72m Busto: 85cm Cintura: 62cm Quadril: 89cm
+                                    </p>
+                                    <div class="price">
+                                    <strong>R$ 350,00</strong>
+                                    </div>
+                                    <button type="button" id="botao">Adicionar ao Carrinho</button>
+                            </article>
+                            <hr>
+                            <article class="produto">
+                                <img src="./imagens/praia02.png"/>
+                                <h6>top cropped corset de cetim alça fina verde</h6>
+                                <p>
+                                    Altura: 1,72m Busto: 85cm Cintura: 62cm Quadril: 89cm
+                                </p>
+                                <div class="price">
+                                <strong>R$ 300,00</strong>
+                                </div>
+                                <button type="button" id="botao">Adicionar ao Carrinho</button>
+                        </article>
+                        <hr>
+                        </article>
+                        <article class="produto">
+                        <img src="./imagens/praia04.png"/>
+                        <h6>top cropped corset de cetim alça fina verde</h6>
+                        <p>
+                            Altura: 1,72m Busto: 85cm Cintura: 62cm Quadril: 89cm
+                        </p>
+                        <div class="price">
+                        <strong>R$ 300,00</strong>
+                        </div>
+                        <button type="button" id="botao">Adicionar ao Carrinho</button>
+                        </article>
+                        <hr>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2>Black Friday C&A</h2>
+                <div><hr id="separablack"></div>
+                <div class="row" id="black-friday">
+                    <div class="col-3">
+                        <div class="card text-bg-dark">
+                            <div class="card-header">
+                                Cabeçalho do header
+                            </div>
+                            <img src="./imagens/card01.png"></img>
+                            <div class="card-body">
+                                <h4 class="card-title">Titulo do Card</h4>
+                                <h5 class="card-title">Subtitulo do Card</h5>
+                                <p class="card-text">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, voluptas doloremque ea consectetur quisquam veniam odit sunt illo tempore sapiente ad accusantium recusandae excepturi omnis suscipit ipsam. Nisi, odio fugiat.
+                                </p>
+                                <a href="#" class="btn btn-primary">Botão link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card text-bg-dark">
+                            <div class="card-header">
+                                Cabeçalho do header
+                            </div>
+                            <img src="./imagens/card02.png"></img>
+                            <div class="card-body">
+                                <h4 class="card-title">Titulo do Card</h4>
+                                <h5 class="card-title">Subtitulo do Card</h5>
+                                <p class="card-text">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, voluptas doloremque ea consectetur quisquam veniam odit sunt illo tempore sapiente ad accusantium recusandae excepturi omnis suscipit ipsam. Nisi, odio fugiat.
+                                </p>
+                                <a href="#" class="btn btn-primary">Botão link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card text-bg-dark">
+                            <div class="card-header">
+                                Cabeçalho do header
+                            </div>
+                            <img src="./imagens/card03.png"></img>
+                            <div class="card-body">
+                                <h4 class="card-title">Titulo do Card</h4>
+                                <h5 class="card-title">Subtitulo do Card</h5>
+                                <p class="card-text">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, voluptas doloremque ea consectetur quisquam veniam odit sunt illo tempore sapiente ad accusantium recusandae excepturi omnis suscipit ipsam. Nisi, odio fugiat.
+                                </p>
+                                <a href="#" class="btn btn-primary">Botão link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card text-bg-dark">
+                            <div class="card-header">
+                                Cabeçalho do header
+                            </div>
+                            <video controls src="./imagens/m3video_module 3.mp4"></video>
+                            <div class="card-body">
+                                <h4 class="card-title">Titulo do Card</h4>
+                                <h5 class="card-title">Subtitulo do Card</h5>
+                                <p class="card-text">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, voluptas doloremque ea consectetur quisquam veniam odit sunt illo tempore sapiente ad accusantium recusandae excepturi omnis suscipit ipsam. Nisi, odio fugiat.
+                                </p>
+                                <a href="#" class="btn btn-primary">Botão link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </br>
+        <div class="row">
+        <div class="col">
+        <h2>Entre em Contato</h2>
+        <div><hr id="separablack"></div>
+            <form>
+                <label class="form-label" for="nome">Seu nome:</label>
+                <input class="form-control" type="text" id="nome"/>
+                <label class="form-label" for="tel">Seu telefone:</label>
+                <input class="form-control" type="tel" id="tel"/>
+                <label class="form-label" for="email">Seu e-mail:</label>
+                <input class="form-control" type="email" id="email"/>
+                <label class="form-label" for="mensagem">Sua mensagem:</label>
+                <textarea id="mensagem" class="form-control"></textarea>
+                <div class="form-check">
+                    <label class="form-check-label" for="aceito-termos">Li e concordo com os termos do site</label>
+                    <input class="form-check-input" type="checkbox" id="aceito-termos">
+                    <div class="form-check form-switch">
+                    <label class="form-check-label" for="aceito-mensagem">aceito receber mensagem</label>
+                    <input class="form-check-input" type="checkbox" id="aceito-mensagem">
+                </div>
+            </div>
+            <button class="btn btn-success">Enviar</button>
+            </form>
+            </div>
+        </div>
+    </div>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

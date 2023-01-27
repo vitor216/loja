@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: rgb(219, 20, 20);
+    margin-bottom: 2px;
+}
+
+header img{
+    width: 50px;
+    margin-left: 10px;
+}
+
+header input{
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    border-radius: 4px;
+    width: 800px;
+    margin-left: -165px;
+}
+
+header a{
+    color: black;
+}
+
+.bi-search{
+    margin-left: -200px;
+}
+
+.bi-alexa{
+    margin-left: -50px;
+    margin-right: -30px;
+}
+
+.bi-person{
+    margin-left: -100px;
+    margin-right: -30px;
+}
+
+.bi-bag{
+    margin-left: -100px;
+    margin-right: -30px;
+}
+
+.navbar-toggler{
+    margin-right: 10px;
+}
+
+#menu{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#carousel-principal{
+    margin-bottom: 80px;
+}
+
+#desconto img{
+    width: 320px;
+}
+
+.post{
+    margin-bottom: 110px;
+}
+
+.post2{
+    margin-bottom: 100px;
+}
+
+#bombando{
+    margin-right: 70px;
+}
+
+#bombando img{
+    width: 175px;
+}
+
+#bombando a{
+    text-decoration: none;
+    color: black;
+}
+
+.h6{
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+.nav-link img{
+    width: 275px;
+}
+
+.nav-link h6{
+    color: black;
+}
+.produto img{
+    width: 200px;
+}
+
+.produtos{
+    display: grid;
+    grid-template-columns: repeat(4, 24.45%);
+    column-gap: 1%;
+    row-gap: 5%;
+    margin-top: 10px;
+}
+
+.produtos h6{
+    text-transform: uppercase;
+}
+
+.produtos p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.price{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#botao{
+    margin-bottom: 5px;
+    background-color: #0d6efd;
+    border-radius: 4px;
+}
+
+.card-img-overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 767px){
+    .conteudo{
+        display: block;
+    }
+    .container{
+        max-width: 90%;
+    }
+    header img{
+        width: 50px;
+        margin-left: 3px;
+    }
+    header input{
+        border: 1px solid #ccc;
+        background-color: #ccc;
+        border-radius: 4px;
+        width: 180px;
+        margin-left: -10px;
+        font-size: 8px;
+    }
+    .bi-search{
+        margin-left: -80px;
+        width: 10px;
+    }
+    .bi-alexa{
+        display: none;
+    }
+    .bi-person{
+        display: none;
+    }
+    .bi-bag{
+        display: none;
+    }
+    .navbar-toggler{
+        margin-right: 10px;
+    }
+    #menu{
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+    #menu a{
+        color: black;
+        font-size: 9px;
+        text-transform: uppercase;
+    }
+    #carousel-principal{
+        margin-bottom: 20px;
+    }
+    #desconto img{
+        width: 200px;
+        margin-bottom: -100px;
+    }
+    #titulo-desc{
+        font-size: 15px;
+    }
+    .desc{
+        margin-bottom: 40px;
+    }
+    #bombando1 h2{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    #bombando a img{
+        width: 150px;
+    }
+    #bombando{
+        margin-bottom: 10px;
+    }
+    #h6r{
+        margin-left: 30px;
+    }
+    .nav-link img{
+        width: 40px;
+    }
+    .nav-link h6{
+        font-size: 7px;
+    }
+    .tab-pane{
+        display: block;
+    }
+    .produtos{
+        display: block;
+        grid-template-columns: repeat(4, 24.45%);
+        column-gap: 1%;
+        row-gap: 5%;
+        margin-top: 10px;
+    }
+    .produtos h6{
+        font-size: 15px;
+        text-transform: uppercase;
+        margin-top: 5px;
+    }
+    .produtos p{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .produtos img{
+        margin-left: 85px;
+    }
+    .price{
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    #black-friday{
+        display: block;
+        grid-template-columns: repeat(2, 24.45%);
+        column-gap: 50%;
+        row-gap: 50%;
+        margin-top: -5px;
+    }
+    .card{
+        width: 200px;
+        margin-bottom: 10px;
+    }
+    .card-header{
+        font-size: 10px;
+    }
+    .card-title{
+        font-size: 10px;
+    }
+    .card-title{
+        font-size: 10px;
+    }
+    .card-text{
+        font-size: 10px;
+    }
+    .btn{
+        font-size: 10px;
+    }
+    #separablack{
+        display: block;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .conteudo{
+        display: block;
+    }
+    .container{
+        max-width: 90%;
+    }
+    header img{
+        width: 50px;
+        margin-left: 3px;
+    }
+    hr{
+        display: none;
+    }
+    header input{
+        border: 1px solid #ccc;
+        background-color: #ccc;
+        border-radius: 4px;
+        width: 500px;
+        margin-left: -180px;
+        font-size: 12px;
+    }
+    .bi-search{
+        margin-left: -200px;
+        width: 10px;
+    }
+    .bi-alexa{
+        display: none;
+    }
+    .bi-person{
+        display: none;
+    }
+    .bi-bag{
+    margin-right: -150px;
+    }
+    .navbar-toggler{
+        margin-right: 5px;
+    }
+    #menu{
+        margin-top: 3px;
+        margin-left: 3px;
+    }
+    #menu a{
+        color: black;
+        font-size: 10px;
+        text-transform: uppercase;
+    }
+    #carousel-principal{
+        margin-bottom: 15px;
+    }
+    #desconto img{
+        width: 172px;
+        margin-bottom: -120px;
+    }
+    #titulo-desc{
+        font-size: 15px;
+    }
+    .desc{
+        margin-bottom: 30px;
+    }
+    #bombando1 h2{
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+    #bombando a img{
+        width: 125px;
+    }
+    #bombando{
+        margin-bottom: 10px;
+    }
+    #h6r{
+        margin-left: 30px;
+    }
+    .nav-link img{
+        width: 150px;
+    }
+    .nav-link h6{
+        font-size: 18px;
+    }
+    .tab-pane{
+        display: block;
+    }
+    .produtos{
+        display: grid;
+        grid-template-columns: repeat(2, 48.9%);
+        column-gap: 1%;
+        row-gap: 5%;
+        margin-top: 10px;
+    }
+    .produtos img{
+        margin-left: 50px;
+    }
+    .produtos h6{
+        font-size: 15px;
+        text-transform: uppercase;
+        margin-top: 5px;
+    }
+    .produtos p{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .price{
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    #black-friday{
+        display: grid;
+        grid-template-columns: repeat(2, 24.45%);
+        column-gap: 30%;
+        row-gap: 5%;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+    .card{
+        width: 200px;
+        margin-bottom: 10px;
+    }
+    .card-header{
+        font-size: 10px;
+    }
+    .card-title{
+        font-size: 10px;
+    }
+    .card-title{
+        font-size: 10px;
+    }
+    .card-text{
+        font-size: 10px;
+    }
+    .btn{
+        font-size: 10px;
+    }
+    #separablack{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    hr{
+        display: none;
+    }
+    #menu a{
+        color: black;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+    #separablack{
+        display: block;
+    }
+    }
